@@ -10,31 +10,31 @@ $number2 = intval($number2);
 $number3 = intval($number3);
 
 if ($number1 <= $number2 && $number1 <= $number3) {
-    $min = $number1;
+    $minimum = $number1;
     if ($number2 <= $number3) {
-        $mid = $number2;
-        $max = $number3;
+        $middle = $number2;
+        $maximum = $number3;
     } else {
-        $mid = $number3;
-        $max = $number2;
+        $middle = $number3;
+        $maximum = $number2;
     }
 } elseif ($number2 <= $number1 && $number2 <= $number3) {
-    $min = $number2;
+    $minimum = $number2;
     if ($number1 <= $number3) {
-        $mid = $number1;
-        $max = $number3;
+        $middle = $number1;
+        $maximum = $number3;
     } else {
-        $mid = $number3;
-        $max = $number1;
+        $middle = $number3;
+        $maximum = $number1;
     }
 } else {
-    $min = $number3;
+    $minimum = $number3;
     if ($number1 <= $number2) {
-        $mid = $number1;
-        $max = $number2;
+        $middle = $number1;
+        $maximum = $number2;
     } else {
-        $mid = $number2;
-        $max = $number1;
+        $middle = $number2;
+        $maximum = $number1;
     }
 }
-echo "Numbers from the minimum to maximum: $min, $mid, $max\n";
+echo "Numbers from the minimum to maximum: $minimum, $middle, $maximum\n";

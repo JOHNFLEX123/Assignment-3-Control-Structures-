@@ -24,3 +24,4 @@ echo "Resultant matrix:\n";
 foreach ($resultMatrix as $row) {
     echo implode(" ", $row) . "\n";
 }
+?>

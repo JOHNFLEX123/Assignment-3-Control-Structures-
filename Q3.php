@@ -10,3 +10,4 @@ foreach ($characterArray as &$char) {
 }
 
 echo "Uppercase string: " . implode("", $characterArray) . "\n";
+?>

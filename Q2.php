@@ -19,3 +19,4 @@ $Array = [5, 3, 9, 1, 7];
 $size = count($Array);
 $index = smallestIndex($Array, $size);
 echo "Index of the smallest element: $index\n"; // Output: Index of the smallest element: 3
+?>

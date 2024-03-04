@@ -13,3 +13,4 @@ for ($i = 0; $i < 50; $i++) {
 foreach (array_piece($alpha, 10) as $piece) {
     echo implode(" ", $piece) . "\n";
 }
+?>

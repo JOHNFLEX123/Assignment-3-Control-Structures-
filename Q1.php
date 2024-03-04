@@ -38,3 +38,4 @@ if ($number1 <= $number2 && $number1 <= $number3) {
     }
 }
 echo "Numbers from the minimum to maximum: $minimum, $middle, $maximum\n";
+?>
